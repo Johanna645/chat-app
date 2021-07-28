@@ -1,0 +1,163 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 25px;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+}
+
+.app-header {
+  background-color: #0084ca;
+  min-height: 6vh;
+  display: flex;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.app-container {
+  margin-left: 25%;
+  margin-top: 4vh;
+  margin-right: 25%;
+  margin-bottom: 4vh;
+  max-width: 50%;
+  height: 52vh;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: inline;
+
+  background-color: rgb(219, 215, 215);
+  box-shadow: -5px -5px 5px 0px rgba(0, 0, 0, 0.4); /* box shadow should be on all sides, this is only for top&left for now */
+}
+
+.app-column {
+  background-color: white;
+  overflow: scroll;
+}
+
+.app-column2 {
+  background-image: url('images/back.png');
+  overflow: scroll;
+}
+
+.app-column2-row {
+}
+
+.app-column2-2row {
+  background-color: #0084ca;
+  height: 50px;
+}
+
+.app-button {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+
+  height: 7vh;
+  background-color: white;
+  color: gray;
+  padding: 11 15;
+}
+
+.app-button:hover {
+  background-color: rgb(184, 179, 179);
+}
+
+.app-starting-textfield {
+  height: 46px;
+  background-color: #0084ca;
+  color: white;
+  border-radius: 15px;
+}
+
+.app-textbox-sent {
+  margin-top: 10px;
+  margin-right: 35px;
+  margin-left: 200px;
+  min-height: 4vh;
+  padding: 8px 10px 8px 10px;
+  background-color: #0084ca;
+  color: white;
+  border-radius: 15px 15px 0 15px;
+}
+
+.app-textbox-received {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 200px;
+  min-height: 4vh;
+  padding: 8px 10px 8px 10px;
+  background-color: hsl(201, 88%, 74%);
+  color: white;
+  border-radius: 15px 15px 15px 0;
+}
+
+.app-message-input {
+  margin: 6px 2px 6px 6px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 85%;
+  height: 60%;
+}
+
+.app-message-send {
+  margin: 6px 6px 6px 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  height: 70%;
+}
+
+.app-ul {
+  list-style-type: none;
+}
+
+.app-footer {
+  background: rgba(19, 16, 16, 0.877);
+  color: rgb(214, 205, 205);
+}
+
+.app-link {
+  color: rgb(214, 205, 205);
+  text-decoration: none;
+}
+
+.app-footer-container {
+  min-height: 15vh;
+  margin-left: 5vh;
+  margin-top: 4vh;
+  margin-right: 5vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.app-row {
+  line-height: 3;
+  margin-left: 18vh;
+}
+
+.app-footer-column-left {
+  width: 30%;
+}
+
+.app-footer-column-right {
+  width: 30%;
+}
+
+.app-footer-column {
+  width: 30%;
+}
+
+.app-section {
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.app-span-footer {
+  margin-bottom: 6vh;
+  justify-content: space-evenly;
+}
